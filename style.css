@@ -1,0 +1,123 @@
+body {
+	font-size: 17px;
+	Font Family:arial, sans-serif;
+}
+
+ul {
+	display: block;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	word-spacing: 15px;
+}
+
+li  {
+
+	display: inline-block;
+    vertical-align: middle;
+}
+
+a {
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+	color: #666666;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+.navbar {
+	float: right;
+	margin: 20px 30px;
+}
+
+.footer {
+	display: block;
+	background: #f4f4f4;
+	font-size: 22px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 40px;
+	padding: 10px 10px 10px 10px;
+}
+
+
+.right{
+	position: relative;
+	float: right;
+	margin-right: 30px;
+	top: 8px;
+}
+
+.left {
+	position: relative;
+	float: left;
+	margin-left: 30px; 
+	top: 8px;
+}
+
+.logo {
+	display: block;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 40px 0px 0px 20px;
+    max-width:330px;
+    max-height:195px;
+    width: auto;
+    height: auto;
+
+}
+
+.input {
+	display: block;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: -40px 20px 20px 20px;
+}
+
+#banana {
+	border:	1px solid #f4f4f4;
+	border-radius: 100px;
+	box-shadow: 1px 1px 1px 2px #f4f4f4;
+}
+
+.searchbar {
+	display: inline;
+    width:500px;
+    margin:50px auto;
+
+}
+
+.voicesearch {
+	display: inline;
+	position: relative;
+	left: 215px;
+    bottom: 33px;
+    height: 50px;
+    width: 50px;
+}
+
+button {
+	outline: none;
+	padding: 10px 20px;
+    font-size: 14px;
+    color: dimgray;
+    background-color: #f5f5f5;
+    border-radius: 3px;
+    font-weight: bold;
+    border: 1px solid #eee;
+    margin: 0 15px;
+}
+
+form {
+	width: 300px;
+}
